@@ -1,0 +1,30 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "Some task app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whymeoff/task-app.git"
+  },
+  "author": "Mark K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whymeoff/task-app/issues"
+  },
+  "homepage": "https://github.com/whymeoff/task-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.6",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
